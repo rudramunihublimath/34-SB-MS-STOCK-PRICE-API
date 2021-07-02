@@ -1,0 +1,15 @@
+Run with single instance : 1111 default port
+server:
+  port: 1111
+
+-----------------
+Run with multiple instances :
+
+Edit configuration -> VM option  : then run it
+-Dserver.port=5555(required port no)
+
+
+Edit configuration -> VM option  : then run it
+-Dserver.port=6666(required port no)
+
+-------------------

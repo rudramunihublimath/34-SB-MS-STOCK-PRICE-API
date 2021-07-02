@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: STOCK-PRICE-API
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/XE
+    username: RPH
+    password: admin
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
